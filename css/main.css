@@ -65,10 +65,10 @@ body {
       margin-left: auto;
       margin-right: auto;
 }
-:hover,
+/* :hover,
 :focus{
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 
 .section {
@@ -112,6 +112,7 @@ body {
 
 .heder-item .current{
   color: var(--accent-color);
+  /* transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 
 }
 
@@ -159,6 +160,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .heder-mail,
@@ -171,6 +173,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .heder-link:hover,
@@ -209,6 +212,7 @@ body {
   background: #f5f4fa;
   color: var(--second-title-color);
   padding: 6px 25px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-btn:hover {
@@ -335,6 +339,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-mail:hover,
@@ -370,6 +375,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
   align-items: center;
   justify-content: center;
   color: #ffffff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soc-icon {
